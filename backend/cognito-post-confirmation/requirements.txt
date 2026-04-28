@@ -1,0 +1,10 @@
+---
+
+## Files
+
+| File | Location | Purpose |
+|---|---|---|
+| Lambda function | `backend/cognito-post-confirmation/lambda_function.py` | Post confirmation trigger |
+| Requirements | `backend/cognito-post-confirmation/requirements.txt` | Python dependencies |
+| Environment vars | AWS Lambda Console → Configuration | Runtime config |
+| Secrets | `.env` (gitignored) | Local development only |
